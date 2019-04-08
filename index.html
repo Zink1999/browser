@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">  
+		try{
+		  for(var i =1 ; i>0; i++){
+		    console.log(i);
+		    if(i >= 1000){
+		    	throw new SyntaxError("SyntaxError");
+		    }
+		  }
+		}
+		catch(e){
+		  console.log(e);
+		}
+	</script>
+</body>
+</html>
